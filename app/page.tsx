@@ -1,5 +1,12 @@
+import TicketCard from "@/components/TicketCard";
+
 export default function Dashboard() {
   return (
-    <div>Dashboard</div>
+    <div>
+      <TicketCard />
+      <TicketCard />
+      <TicketCard />
+    </div>
   )
 }
+
