@@ -99,6 +99,20 @@
   p {
     @apply text-sm;
   }
+
+  form {
+    @apply rounded-xl p-4;
+  }
+
+  label {
+    @apply mt-4;
+  }
+
+  input,
+  select,
+  textarea {
+    @apply m-1 rounded;
+  }
 }
 
 @layer base {
